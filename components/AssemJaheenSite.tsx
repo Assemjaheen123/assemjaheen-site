@@ -266,7 +266,7 @@ export default function AssemJaheenSite() {
       </section>
 
       <section id="services" style={{ maxWidth: 1120, margin: "0 auto", padding: "24px 16px" }}>
-        <h2 style={{ fontSize: 24, marginBottom: 12 }}>✨ {tt.services.title}</h2>
+X  <h2 style={{ fontSize: 24, marginBottom: 12 }}>✨ {tt.services.title}</h2>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(260px,1fr))", gap: 14 }}>
           {tt.services.items.map((s, i) => (
             <Card key={i} style={{ padding: 16 }}>
@@ -287,7 +287,7 @@ export default function AssemJaheenSite() {
               </div>
               <div style={{ fontWeight: 600, marginBottom: 8 }}>{c.title}</div>
               <ul style={{ margin: 0, paddingInlineStart: 18, color: theme.textMuted, fontSize: 13 }}>
-                {c.points.map((p, j) => (<li key={j}>{p}</li>))}
+       {c.points.map((p, j) => (<li key={j}>{p}</li>))}
               </ul>
             </Card>
           ))}
