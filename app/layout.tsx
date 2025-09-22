@@ -1,8 +1,12 @@
+import type { ReactNode } from "react";
+import "./globals.css";
+
 export const metadata = {
   title: "Assem Jaheen — Asset Management",
-  description: "assemjaheen.com"
+  description: "assemjaheen.com",
 };
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="ar" dir="rtl">
       <body>{children}</body>
