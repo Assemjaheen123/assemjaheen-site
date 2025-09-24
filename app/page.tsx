@@ -1,8 +1,4 @@
-"use client";
-import React from "react";
-import AssemJaheenSite from "../components/AssemJaheenSite";
-import "./globals.css";
-
+import AssemJaheenSite from "@/components/AssemJaheenSite";
 export default function Page() {
   return <AssemJaheenSite />;
 }
